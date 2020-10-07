@@ -1,4 +1,7 @@
 # Password-Cracker
+
+Very Easy To Use
+
  #Usage:
  
  python3 cracker.py
