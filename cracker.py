@@ -71,13 +71,6 @@ for password in passlist.split('\n'):
 		else:
 			print (colored(str(password)+" not matched. Trying another password.......",'red'))
 
-	elif Hash == hash9:
-		hashguess = hashlib.md6(bytes(password, 'utf-8')).hexdigest()
-		if hashguess == hash:
-			print (colored("[*] Password is "+str(password), 'green'))
-			quit()
-		else:
-			print (colored(str(password)+" not matched. Trying another password.......",'red'))
 
 	elif Hash == hash11:
 		hashguess = hashlib.blake2s(bytes(password, 'utf-8')).hexdigest()
