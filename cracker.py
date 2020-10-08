@@ -17,11 +17,11 @@ hash3 = 'sha512'
 hash4 = 'md5'
 hash5 = 'sha384'
 
-hash8 = 'sha224'
-hash9 = 'md6'
+hash6 = 'sha224'
 
-hash11 = 'blake2c'
-hash12 = 'blake2b'
+
+hash7 = 'blake2c'
+hash8 = 'blake2b'
 
 
 
@@ -63,7 +63,7 @@ for password in passlist.split('\n'):
 			quit()
 		else:
 			print (colored(str(password)+" not matched. Trying another password.......",'red'))
-	elif Hash == hash8:
+	elif Hash == hash6:
 		hashguess = hashlib.sha224(bytes(password, 'utf-8')).hexdigest()
 		if hashguess == hash:
 			print (colored("[*] Password is "+str(password), 'green'))
@@ -72,14 +72,14 @@ for password in passlist.split('\n'):
 			print (colored(str(password)+" not matched. Trying another password.......",'red'))
 
 
-	elif Hash == hash11:
+	elif Hash == hash7:
 		hashguess = hashlib.blake2s(bytes(password, 'utf-8')).hexdigest()
 		if hashguess == hash:
 			print (colored("[*] Password is "+str(password), 'green'))
 			quit()
 		else:
 			print (colored(str(password)+" not matched. Trying another password.......",'red'))
-	elif Hash == hash12:
+	elif Hash == hash8:
 		hashguess = hashlib.blake2b(bytes(password, 'utf-8')).hexdigest()
 		if hashguess == hash:
 			print (colored("[*] Password is "+str(password), 'green'))
