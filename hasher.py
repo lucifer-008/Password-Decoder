@@ -2,7 +2,7 @@
 
 import hashlib
 from termcolor import colored
-import zlib
+import crypt
 
 hashvalue = input("[*] Enter Your String: ")
 type = input("[*] Enter Your Hash Type: ")
@@ -15,6 +15,7 @@ hash5 = 'sha512'
 hash6 = 'sha224'
 hash7 = 'blake2c'
 hash8 = 'blake2b'
+hash9 = 'encode'
 
 
 
@@ -57,6 +58,10 @@ elif type == hash8:
 	hashobj = hashlib.blake2b()
 	hashobj.update(hashvalue.encode())
 	print (hashobj.hexdigest())
+	quit()
+elif type == hash9:
+	hashobj = crypt.crypt(hashvalue, 'LU')
+	print (hashobj)
 	quit()
 
 
