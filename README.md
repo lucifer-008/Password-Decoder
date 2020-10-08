@@ -2,7 +2,7 @@
 
 Very Easy To Use
 
- #Usage Of Password Cracker:
+ #Usage Of Password Decoder:
  
  python3 cracker.py
  
