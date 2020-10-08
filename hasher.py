@@ -68,7 +68,8 @@ elif type == hash8:
 	print (colored("Thank You For Using Us", 'blue'))
 	quit()
 elif type == hash9:
-	hashobj = crypt.crypt(hashvalue, 'LU')
+	salt = input("[*] Enter Your Salt: ")
+	hashobj = crypt.crypt(hashvalue, salt)
 	print ("[*] Here is Your Hash: " +hashobj)
 	print (colored("Thank You For Using Us", 'blue'))
 	quit()
