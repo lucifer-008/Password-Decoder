@@ -16,10 +16,7 @@ hash2 = 'sha256'
 hash3 = 'sha512'
 hash4 = 'md5'
 hash5 = 'sha384'
-
 hash6 = 'sha224'
-
-
 hash7 = 'blake2c'
 hash8 = 'blake2b'
 
