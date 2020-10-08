@@ -11,11 +11,8 @@ Very Easy To Use
  2. sha256
  3. sha384
  4. sha512
- 5. sha3
- 6. sha224
- 7. md5
- 8. md2
- 9. md5
- 10. blake2c
- 11. blake2b
- 12. md6
+ 5. sha224
+ 6. md5
+ 7. blake2c
+ 8. blake2b
+ 
