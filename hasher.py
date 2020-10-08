@@ -15,7 +15,7 @@ hash5 = 'sha512'
 hash6 = 'sha224'
 hash7 = 'blake2c'
 hash8 = 'blake2b'
-hash9 = 'encode'
+hash9 = 'salt'
 
 
 
