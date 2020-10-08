@@ -1,8 +1,8 @@
-# Password-Cracker
+# Password-Decoder
 
 Very Easy To Use
 
- #Usage:
+ #Usage Of Password Cracker:
  
  python3 cracker.py
  
@@ -16,3 +16,16 @@ Very Easy To Use
  7. blake2c
  8. blake2b
  
+#Usage of Hash Encoder:
+
+python3 hasher.py
+
+#Types of Hashes it encode:
+ 1. sha1
+ 2. sha256
+ 3. sha384
+ 4. sha512
+ 5. sha224
+ 6. md5
+ 7. blake2c
+ 8. blake2b
