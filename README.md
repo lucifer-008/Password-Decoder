@@ -29,3 +29,4 @@ python3 hasher.py
  6. md5
  7. blake2c
  8. blake2b
+ 9. salt
