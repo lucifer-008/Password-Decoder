@@ -30,3 +30,7 @@ python3 hasher.py
  7. blake2c
  8. blake2b
  9. salt
+
+#For decode the salt type hashes:--
+
+python3 salt.py
