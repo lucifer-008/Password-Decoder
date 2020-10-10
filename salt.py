@@ -21,7 +21,7 @@ def crackPass(cryptWord):
 				print (colored("[+] Cogratulations, Password Found: " + word, 'yellow'))
 				return
 	except:
-		Pass = open('PassWord.txt', 'r')
+		Pass = open('Pass.txt', 'r')
 		for PassWord in Pass.readlines():
 			PassWord = PassWord.strip('\n')
 			Crypt = crypt.crypt(PassWord, salt)
