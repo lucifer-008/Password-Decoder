@@ -6,7 +6,7 @@ from urllib.request import urlopen
 
 
 passfile = input("[+] Please specify the path of user:password file: ")
-dictionary = input("[+] Please specify the path of simple password file: ")
+dictionary = input("[+] Please specify the path of simple password file or press enter for use default password list: ")
 
 
 
